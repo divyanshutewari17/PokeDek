@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PokeDek",
+    "slug": "PokeDek",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pokemon-pokeball-game-go-34722.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.divyanshu1712.PokeDek"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
